@@ -1,4 +1,4 @@
-    job('NodeJS example') {
+    job('NodeJS docker example') {
       scm {
         git('https://github.com/Eri4/jenkinsDSL.git') { node ->
           node / gitConfigName('DSL User')
