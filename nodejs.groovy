@@ -9,7 +9,7 @@
         scm('h/5 * * * *')
         
       }
-      warppers {
+      wrappers {
         nodejs('nodejs')
         
       }
