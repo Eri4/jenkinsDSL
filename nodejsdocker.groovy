@@ -1,4 +1,4 @@
-    job('NodeJS example) {
+    job('NodeJS example') {
       scm {
         git('https://github.com/Eri4/jenkinsDSL.git') { node ->
           node / gitConfigName('DSL User')
@@ -9,7 +9,7 @@
         scm('h/5 * * * *')
         
       }
-      warppers {
+      wrappers {
         nodejs('nodejs')
         
       }
