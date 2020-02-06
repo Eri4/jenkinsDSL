@@ -13,7 +13,7 @@
         nodejs('nodejs')
         
       }
-      step {
+      steps {
         dockerBuildAndPush {
           repositoryName('patatjaeri/nodejs_test_app')
           tag('${GIT_REVISION,length=9}')
