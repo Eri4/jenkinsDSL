@@ -1,6 +1,6 @@
     job('NodeJS example') {
       scm {
-        git('https://github.com/Eri4/jenkinsDSL.git') { node ->
+        git('https://github.com/Eri4/node.js-Project.git') { node ->
           node / gitConfigName('DSL User')
           node / gitConfigEmail('ermirjace0@gmail.com')
         }
