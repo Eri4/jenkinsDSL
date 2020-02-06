@@ -14,7 +14,7 @@
         
       }
       steps {
-        dockerBuildAndPush {
+        dockerBuildAndPublish {
           repositoryName('patatjaeri/nodejs_test_app')
           tag('${GIT_REVISION,length=9}')
           registryCredentials('dockerhub')
